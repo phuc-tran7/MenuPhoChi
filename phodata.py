@@ -110,7 +110,7 @@ df = pd.read_csv('PHoData3.0.csv')
 df['Date'] = pd.to_datetime(df['Timestamp']).dt.date
 
 # API setup
-API_KEY = getpass.getpass("7DR4NHN6A8B7H42UHUDQZVR7M")
+# API_KEY = 
 BASE_URL = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/"
 LOCATION = "20D Montgomery Village Avenue, Gaithersburg, MD 20879"
 
